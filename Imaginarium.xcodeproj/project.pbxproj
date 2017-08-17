@@ -13,6 +13,7 @@
 		0A1FB3781F45A2490041AC10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FB3761F45A2490041AC10 /* Main.storyboard */; };
 		0A1FB37A1F45A2490041AC10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FB3791F45A2490041AC10 /* Assets.xcassets */; };
 		0A1FB37D1F45A2490041AC10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FB37B1F45A2490041AC10 /* LaunchScreen.storyboard */; };
+		0A1FB3861F45A7F50041AC10 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FB3851F45A7F50041AC10 /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0A1FB3791F45A2490041AC10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A1FB37C1F45A2490041AC10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A1FB37E1F45A2490041AC10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A1FB3841F45A7F50041AC10 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = ../ImageViewController.h; sourceTree = "<group>"; };
+		0A1FB3851F45A7F50041AC10 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = ../ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +61,8 @@
 		0A1FB36C1F45A2490041AC10 /* Imaginarium */ = {
 			isa = PBXGroup;
 			children = (
-				0A1FB3701F45A2490041AC10 /* AppDelegate.h */,
-				0A1FB3711F45A2490041AC10 /* AppDelegate.m */,
+				0A1FB3841F45A7F50041AC10 /* ImageViewController.h */,
+				0A1FB3851F45A7F50041AC10 /* ImageViewController.m */,
 				0A1FB3731F45A2490041AC10 /* ViewController.h */,
 				0A1FB3741F45A2490041AC10 /* ViewController.m */,
 				0A1FB3761F45A2490041AC10 /* Main.storyboard */,
@@ -74,6 +77,8 @@
 		0A1FB36D1F45A2490041AC10 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0A1FB3701F45A2490041AC10 /* AppDelegate.h */,
+				0A1FB3711F45A2490041AC10 /* AppDelegate.m */,
 				0A1FB36E1F45A2490041AC10 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -152,6 +157,7 @@
 			files = (
 				0A1FB3751F45A2490041AC10 /* ViewController.m in Sources */,
 				0A1FB3721F45A2490041AC10 /* AppDelegate.m in Sources */,
+				0A1FB3861F45A7F50041AC10 /* ImageViewController.m in Sources */,
 				0A1FB36F1F45A2490041AC10 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
